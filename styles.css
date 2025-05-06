@@ -25,12 +25,18 @@
 /* |||| SET UP RESUABLE STYLES |||| */
 
 :root {
-    /* COLORS */
-    --Green: hsl(75, 94%, 57%);
+    /* DESIGN COLORS */
+    /* --Green: hsl(75, 94%, 57%);
     --White: hsl(0, 0%, 100%);
     --Grey-700: hsl(0, 0%, 20%);
     --Grey-800: hsl(0, 0%, 12%);
-    --Grey-900: hsl(0, 0%, 8%);
+    --Grey-900: hsl(0, 0%, 8%); */
+
+    /* PERSONAL COLOR PALLETE */
+    --Black: #1b2a37;
+    --Blue-Grey: #7da1bf;
+    --Yellow: #edd050;
+    --Sage-Green: #c8c7b9;
 }
 
 /* |||| RESET STYLING |||| */
@@ -51,7 +57,7 @@ body {
 
 main {
     align-items: center;
-    background-color: var(--Grey-900);
+    background-color: var(--Black);
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -61,9 +67,9 @@ main {
 /* |||| CARD |||| */
 
 #card {
-    background-color: var(--Grey-800);
+    background-color: var(--Blue-Grey);
     border-radius: 15px;
-    color: var(--White);
+    color: var(--Black);
     padding-bottom: 20px;
     text-align: center;
     width: 100%;
@@ -74,6 +80,7 @@ img {
     border-radius: 50%;
     display: block;
     margin: 30px auto;
+    object-fit: cover;
     width: 100%;
     max-width: 100px;
 }
@@ -83,7 +90,7 @@ h1 {
 }
 
 h2 {
-    color: var(--Green);
+    color: var(--Yellow);
     font-size: 0.9rem;
     margin: 10px auto 30px;
 }
@@ -94,11 +101,10 @@ h3 {
 }
 
 a {
-    background-color: var(--Grey-700);
+    background-color: var(--Sage-Green);
     border-radius: 8px;
-    caret-color: var(--Grey-900);
     font-size: 1rem;
-    color: var(--White);
+    color: var(--Black);
     display: block;
     margin: 0 auto 20px;
     padding: 15px;
@@ -107,7 +113,13 @@ a {
 }
 
 a:hover {
-    background-color: var(--Green);
-    color: var(--Grey-900);
+    background-color: var(--Yellow);
+    color: var(--Black);
     cursor: pointer;
+}
+
+footer {
+    margin: 50px auto 20px;
+    width: 100%;
+    max-width: 200px;
 }
