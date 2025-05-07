@@ -27,8 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
+HTML
 ![](./screenshots/social-links-profile-project-html-1.png)
 ![](./screenshots/social-links-profile-project-html-2.png)
+CSS
 ![](./screenshots/social-links-profile-project-css-1.png)
 ![](./screenshots/social-links-profile-project-css-2.png)
 ![](./screenshots/social-links-profile-project-css-3.png)
