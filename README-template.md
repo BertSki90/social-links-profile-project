@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./sceenshots/social-links-profile-project-html-1.png)
-![](./sceenshots/social-links-profile-project-html-2.png)
-![](./sceenshots/social-links-profile-project-css-1.png)
-![](./sceenshots/social-links-profile-project-css-2.png)
-![](./sceenshots/social-links-profile-project-css-3.png)
-![](./sceenshots/social-links-profile-project-css-4.png)
+![](./screenshots/social-links-profile-project-html-1.png)
+![](./screenshots/social-links-profile-project-html-2.png)
+![](./screenshots/social-links-profile-project-css-1.png)
+![](./screenshots/social-links-profile-project-css-2.png)
+![](./screenshots/social-links-profile-project-css-3.png)
+![](./screenshots/social-links-profile-project-css-4.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
